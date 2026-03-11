@@ -1,9 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Navbar from "./components/Navbar.js";
 
 export default function Home() {
   return (
     <main>
+
+      <Navbar />
+      
       <section id="home">
         <h1>Tara Aamo</h1>
       </section>
@@ -19,7 +21,7 @@ export default function Home() {
       <section id="contact">
         <h2>Kontakt</h2>
       </section>
-      
+
     </main>
   );
 }
