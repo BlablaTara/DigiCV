@@ -1,5 +1,7 @@
 :root {
-  --background: #999999;
+  --background: 
+  radial-gradient(circle at top left, #c8adaa 15%, rgba(240, 240, 240, 0.702) 50%),
+  radial-gradient(circle at bottom left,#856060 10%, #494564);
   --foreground: #171717;
 }
 
@@ -44,17 +46,16 @@ a {
 
 nav {
   position: fixed;
-  top: 0;
+  top: 15px;
   left: 50%;
   width: 1200px;
   transform: translateX(-50%);
   backdrop-filter: blur(30px);
   box-shadow: 0 0px 30px rgb(227,228,237,0.37);
-  border-radius: 8px;
+  border-radius: 15px;
   z-index: 1000;
 }
 
-/* Navbar container */
 nav .nav-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -64,7 +65,6 @@ nav .nav-container {
   padding: 1rem;
 }
 
-/* Navbar links */
 nav a {
   text-decoration: none;
   color: #333;
@@ -72,30 +72,30 @@ nav a {
   font-weight: bold;
 }
 
-/* Hover effekt på links */
+
 nav a:hover {
-  color: #0070f3;
+  color: #d1a58a;
 }
 
-/* Section styling */
 section {
-  height: 100vh; /* Fylder hele skærmen */
+  height: 100vh;
   padding: 120px 40px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Padding-top til main, så navbar ikke dækker */
 main {
-  padding-top: 80px; /* samme højde som navbar */
+  padding-top: 80px;
 }
 
 .page-container {
   max-width: 1200px;
   margin: 0 auto;
-  background: white;
+  background: 
+    radial-gradient(circle at top right, #dcada8 5%, rgba(240, 240, 240, 0.702) 50%),
+    radial-gradient(circle at right, #392759 20%, rgba(240, 240, 240, 0.7) 50%);
   min-height: 100vh;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
