@@ -1,11 +1,11 @@
-import Navbar from "./components/Navbar.js";
+import Navbar from "../components/Navbar.js";
 
 export default function Home() {
   return (
     <main>
 
       <Navbar />
-      
+
       <section id="home">
         <h1>Tara Aamo</h1>
       </section>
