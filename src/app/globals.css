@@ -71,15 +71,19 @@ nav .nav-container {
   position: relative;
 }
 
+nav .nav-links a {
+  margin-left: 1.5rem;
+}
+
 nav a {
   text-decoration: none;
   color: #333;
-  margin-left: 1.5rem;
+  /* margin-left: 1.5rem; */
   font-weight: bold;
 }
 
 
-nav a:hover {
+nav .nav-links a:hover {
   color: #d1a58a;
 }
 

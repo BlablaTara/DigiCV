@@ -9,10 +9,13 @@ export default function Navbar() {
         <nav>
             <div className="nav-container">
 
-                <div className="logo">Emma Lykke</div>
+                <div className="logo">
+                    
+                    <a href="#home">Emma Lykke</a>
+
+                </div>
 
                 <div className={`nav-links ${menuOpen ? "active" : ""}`}>
-                    <a href="#home" onClick={() => setMenuOpen(false)}>Forside</a>
                     <a href="#projects" onClick={() => setMenuOpen(false)}>Projekter</a>
                     <a href="#about" onClick={() => setMenuOpen(false)}>Om mig</a>
                     <a href="#contact" className="mobile-cta" onClick={() => setMenuOpen(false)}>
