@@ -96,6 +96,10 @@ nav a:hover {
   background: #000000;
 }
 
+.mobile-cta {
+  display: none;
+}
+
 section {
   min-height: 100vh;
   padding: 120px 40px;
@@ -154,11 +158,16 @@ main {
 
 @media (max-width: 768px) {
 
+  nav {
+    padding: 0;
+  }
+
   .nav-links {
     position: absolute;
     top: 105%;
-    left: 0%;
-    width: 100%;
+    left: 0;
+    right: 0;
+    /* margin: 0 20px; */
 
     backdrop-filter: blur(20px);
     background: rgba(255,255,255,0.6);
@@ -204,7 +213,17 @@ main {
   }
 
   .nav-cta {
-    position: absolute;
+    display: none;
   }
+
+  .mobile-cta {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: black;
+    color: white;
+    border-radius: 999px;
+  }
+
 
 }

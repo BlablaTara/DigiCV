@@ -15,9 +15,12 @@ export default function Navbar() {
                     <a href="#home" onClick={() => setMenuOpen(false)}>Forside</a>
                     <a href="#projects" onClick={() => setMenuOpen(false)}>Projekter</a>
                     <a href="#about" onClick={() => setMenuOpen(false)}>Om mig</a>
+                    <a href="#contact" className="mobile-cta" onClick={() => setMenuOpen(false)}>
+                        Kontakt
+                    </a>
                 </div>
 
-                <div className={`nav-cta ${menuOpen ? "active" : ""}`} >
+                <div className="nav-cta">
                     <a href="#contact">Kontakt</a>
                 </div>
 
