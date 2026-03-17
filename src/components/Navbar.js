@@ -8,6 +8,9 @@ export default function Navbar() {
                     <a href="#home">Forside</a>
                     <a href="#projects">Projekter</a>
                     <a href="#about">Om mig</a>
+                </div>
+
+                <div className="nav-cta">
                     <a href="#contact">Kontakt</a>
                 </div>
             

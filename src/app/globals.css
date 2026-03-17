@@ -66,6 +66,7 @@ nav .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 nav a {
@@ -78,6 +79,19 @@ nav a {
 
 nav a:hover {
   color: #d1a58a;
+}
+
+.nav-cta a {
+  background: #000000;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.nav-cta a:hover {
+  background: #000000;
 }
 
 section {
