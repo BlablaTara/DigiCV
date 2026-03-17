@@ -7,9 +7,9 @@ export default function Home() {
       <div className="page-container">
 
         <Navbar />
-        
+
         <section id="home">
-          <h1>Tara Aamo</h1>
+          <h1>Emma Lykke</h1>
         </section>
 
         <section id="projects"> 

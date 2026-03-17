@@ -2,7 +2,7 @@ export default function Navbar() {
     return (
         <nav>
             <div className="nav-container">
-                <div className="logo">Tara Aamo</div>
+                <div className="logo">Emma Lykke</div>
 
                 <div className="nav-links">
                     <a href="#home">Forside</a>
