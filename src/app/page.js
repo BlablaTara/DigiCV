@@ -1,3 +1,4 @@
+import Hero from "../sections/Hero.js";
 import Navbar from "../components/Navbar.js";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
 
         <section id="home">
           <h1>Emma Lykke</h1>
+          <Hero />
         </section>
 
         <section id="projects"> 

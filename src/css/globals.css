@@ -44,6 +44,18 @@ a {
   }
 }
 
+section {
+  min-height: 100vh;
+  padding: 70px 40px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+main {
+  padding: 80px 30px 40px;
+}
+
 nav {
   position: sticky;
   /* top: 15px; */
@@ -87,6 +99,12 @@ nav .nav-links a:hover {
   color: #d1a58a;
 }
 
+.logo a {
+  font-weight: 900; /* okay fonden understøtter ikke denne - måske når fonden bliver skiftet */
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
 .nav-cta a {
   background: #000000;
   color: white;
@@ -102,18 +120,6 @@ nav .nav-links a:hover {
 
 .mobile-cta {
   display: none;
-}
-
-section {
-  min-height: 100vh;
-  padding: 120px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-main {
-  padding: 80px 30px 40px;
 }
 
 .page-container {
