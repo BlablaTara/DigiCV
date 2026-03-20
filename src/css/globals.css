@@ -129,7 +129,7 @@ nav .nav-links a:hover {
   margin: 0 auto;
 
   background: 
-    radial-gradient(circle at top right, #dcada8 5%, rgba(240, 240, 240, 0.702) 50%),
+    radial-gradient(circle at top right, #dcada8 5%, rgba(240, 240, 240, 0.702) 30%),
     radial-gradient(circle at right, #392759 20%, rgba(240, 240, 240, 0.7) 50%);
   min-height: 100vh;
   border-radius: 15px;
