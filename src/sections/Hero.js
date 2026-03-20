@@ -1,5 +1,7 @@
 import "../css/hero.css";
 import Image from "next/image";
+import Circles from "@/components/Circles";
+import Dots from "@/components/Dots";
 
 export default function Hero() {
 
@@ -17,8 +19,13 @@ export default function Hero() {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        style={{ width: "450px", height: "auto" }}   
+                        style={{ 
+                            width: "500px", 
+                            height: "auto" 
+                        }}   
                     />
+                    <Dots />
+                    <Circles />
                 </div>
             </div>
 
