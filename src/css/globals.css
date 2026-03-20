@@ -17,6 +17,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  letter-spacing: 0.8px;
 }
 
 body {
@@ -46,7 +47,7 @@ a {
 
 section {
   min-height: 100vh;
-  padding: 70px 40px;
+  padding: 50px 40px;
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -102,7 +103,7 @@ nav .nav-links a:hover {
 .logo a {
   font-weight: 900; /* okay fonden understøtter ikke denne - måske når fonden bliver skiftet */
   font-size: 1.1rem;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.8px; */
 }
 
 .nav-cta a {

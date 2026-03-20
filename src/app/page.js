@@ -10,7 +10,7 @@ export default function Home() {
         <Navbar />
 
         <section id="home">
-          <h1>Emma Lykke</h1>
+
           <Hero />
         </section>
 
