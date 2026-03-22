@@ -16,7 +16,8 @@
 .hero-title {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    padding: 5px 50px;
 }
 
 .hero-pic {
@@ -96,6 +97,11 @@
 
   cursor: pointer;
   transition: transform 0.2s ease;
+
+    box-shadow: 
+        0 0 6px rgba(255, 255, 255, 0.828),
+        0 0 12px rgba(255, 255, 255, 0.4),
+        0 0 20px rgba(255, 255, 255, 0.558);
 }
 
 .dot:hover {
@@ -108,17 +114,38 @@
   left: 50%;
   transform: translateX(-50%);
 
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.85);
   color: white;
-  padding: 5px 10px;
-  border-radius: 6px;
-  font-size: 0.8rem;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.6rem;
 
   white-space: nowrap;
 
   opacity: 0;
   pointer-events: none;
   transition: 0.2s ease;
+
+  position: relative;
+}
+
+.dot-tooltip::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 999px;
+  transition: 0.1s ease;
+
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0) 60%,
+    rgba(255, 255, 255, 0.248) 80%,
+    transparent 100%
+  );
+
+  z-index: -1;
 }
 
 .dot:hover .dot-tooltip {

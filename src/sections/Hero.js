@@ -9,7 +9,7 @@ export default function Hero() {
 
             <div className="hero">
                 <div className="hero-title">
-                    <h2>Lattermild datammatiker, med iværksætter baggrund og høje sociale skills</h2>
+                    <h2>Lattermild datamatiker, med iværksætter baggrund og høje sociale skills</h2>
                 </div>
 
                 <div className="hero-pic">
