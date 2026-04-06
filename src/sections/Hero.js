@@ -1,7 +1,7 @@
 import "../css/hero.css";
 import Image from "next/image";
-import Circles from "@/components/Circles";
-import Dots from "@/components/Dots";
+import Circles from "@/components/heroComponents/Circles";
+import Dots from "@/components/heroComponents/Dots";
 
 export default function Hero() {
 
@@ -27,7 +27,9 @@ export default function Hero() {
                     <Dots />
                     <Circles />
                 </div>
+                <div className="black-bar"></div>
             </div>
+            
 
 
     );

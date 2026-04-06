@@ -151,3 +151,12 @@
 .dot:hover .dot-tooltip {
   opacity: 1;
 }
+
+/* //// BLACK BAR //// */
+
+.black-bar {
+  width: 100%;
+  height: 100px;
+  background: black;
+  border-radius: 0 0 15px 15px;
+}
