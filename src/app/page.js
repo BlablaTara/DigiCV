@@ -1,5 +1,6 @@
 import Hero from "../sections/Hero.js";
 import Navbar from "../components/Navbar.js";
+import Projects from "@/sections/Projects.js";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
         <section id="projects"> 
           <h2>Projekter</h2>
+          <Projects />
         </section>
 
         <section id="about">
