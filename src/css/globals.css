@@ -48,9 +48,8 @@ a {
 section {
   min-height: 100vh;
   padding: 50px 40px;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
+  display: block;
+
 }
 
 main {

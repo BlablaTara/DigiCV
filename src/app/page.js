@@ -7,16 +7,13 @@ export default function Home() {
     <main>
 
       <div className="page-container">
-
         <Navbar />
 
         <section id="home">
-
           <Hero />
         </section>
 
         <section id="projects"> 
-          <h2>Projekter</h2>
           <Projects />
         </section>
 
