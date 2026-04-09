@@ -4,7 +4,8 @@ export default function ProjectCard({ title, description, image }) {
     return (
         <div className="project-card">
             <div className="face face1">
-                <div className="project-card-image" aria-hidden="true">
+                <div className="content">
+                <div className="project-card-image">
                     <Image
                     src={image}
                     alt={title}
@@ -18,10 +19,15 @@ export default function ProjectCard({ title, description, image }) {
                     }}
                     />
                 </div>
+                </div>
             </div>
-            <div className="project-card-content">
-                <h3>{title}</h3>
-                <p>{description}</p>
+            <div className="face face2">
+                <div className="content">
+                <div className="project-card-content">
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                </div>
+                </div>
             </div>
         </div>
     );
