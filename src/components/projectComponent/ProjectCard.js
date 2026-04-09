@@ -13,7 +13,7 @@ export default function ProjectCard({ title, description, image }) {
                     height={200}
                     sizes="100vw"
                     style={{
-                        width: "100%",
+                        // width: "100%",
                         height: "200px",
                         objectFit: "cover"
                     }}
